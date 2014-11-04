@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>REALLY Options</title>
+    <style>
+        textarea {
+            width: 90%;
+            height: 300px;
+        }
+    </style>
+    <script src="options.js"></script>
+  </head>
+  <body>
+    <h1>REALLY</h1>
+
+    <label for="list">URLs to interrogate (separated by newlines):</label>
+    <textarea id="list" name="list"></textarea>
+
+    <br/>
+
+    <label for="enableRegex">Enable regular expressions? (case-insensitive)</label>
+    <input type="checkbox" id="enableRegex" name="enableRegex">
+
+    <br/>
+    <button id="save">Save</button>
+
+    <span id="status"></span>
+  </body>
+</html>

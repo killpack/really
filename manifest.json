@@ -1,0 +1,13 @@
+{
+    "name": "REALLY",
+    "version": "1.0",
+    "description": "do you really want to do that???",
+    "content_scripts": [{
+        "matches": ["*://*/*"],
+        "js": ["really.js"]
+    }],
+    "options_page": "options.html",
+    "permissions": ["storage"],
+    "manifest_version": 2
+}
+
